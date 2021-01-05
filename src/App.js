@@ -31,7 +31,7 @@ class App extends Component {
         {sideDrawer}
         {backdrop}
         <main style={{ marginTop: "64px" }}>
-          <p>Test</p>
+          <p>Test deployment to Netlify</p>
         </main>
       </div>
     );
