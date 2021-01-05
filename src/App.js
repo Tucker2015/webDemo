@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Toolbar from "./components/Toolbar/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Backdrop from "./components/Backdrop/Backdrop";
+import "./App.css";
 
 class App extends Component {
   state = {
@@ -30,9 +31,9 @@ class App extends Component {
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
         {sideDrawer}
         {backdrop}
-        <main style={{ marginTop: "64px" }}>
+        <div className="body_text">
           <p>Test deployment to Netlify</p>
-        </main>
+        </div>
       </div>
     );
   }

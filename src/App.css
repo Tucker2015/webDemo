@@ -1,0 +1,10 @@
+.body_text {
+  margin-top: 64px;
+  flex: 1;
+}
+.body_text p {
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(165, 44, 44);
+}
