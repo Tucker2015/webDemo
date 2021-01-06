@@ -21,7 +21,7 @@ const toolbar = (props) => (
             <a href="/">Login</a>
           </li>
           <li>
-            <a href="/">Help</a>
+            <a href="./src/pages/Home.js">Help</a>
           </li>
         </ul>
       </div>
