@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import logo from "./logo.png";
+import logo from "./logo.svg";
 import "./Home.css";
 
 class Home extends Component {
@@ -7,8 +7,8 @@ class Home extends Component {
     return (
       <div>
         <div className="body_text">
-          <h1>Test deployment to Netlify</h1>
-          <img className="logo" src={logo} alt="Logo" />
+          <h1>Welcome to MixStream</h1>
+          <img className="App-logo" src={logo} alt="Logo" />
         </div>
       </div>
     );

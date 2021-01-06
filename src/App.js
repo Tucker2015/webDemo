@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Toolbar from "./components/Toolbar/Toolbar";
 import SideDrawer from "./components/SideDrawer/SideDrawer";
 import Backdrop from "./components/Backdrop/Backdrop";
-import Help from "./pages/Help";
 
 import "./App.css";
 
@@ -31,9 +30,8 @@ class App extends Component {
     return (
       <div style={{ height: "100%" }}>
         <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
-        {sideDrawer}
-        {backdrop}
-        <Help />
+        {/* {sideDrawer}
+        {backdrop} */}
       </div>
     );
   }

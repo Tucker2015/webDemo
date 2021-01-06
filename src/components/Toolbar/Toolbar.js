@@ -4,14 +4,15 @@ import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../../pages/Home";
 import Help from "../../pages/Help";
+import Login from "../../pages/Login";
 
 const toolbar = (props) => (
   <header className="toolbar">
     <Router>
       <nav className="toolbar_navigation">
-        <div>
+        {/* <div>
           <DrawerToggleButton click={props.drawerClickHandler} />
-        </div>
+        </div> */}
         <div className="toolbar_logo">
           <a href="/">MixStream</a>
         </div>
@@ -22,7 +23,7 @@ const toolbar = (props) => (
               <a href="/">Live</a>
             </li>
             <li>
-              <a href="/">Login</a>
+              <a href="/login">Login</a>
             </li>
             <li>
               <a href="/help">Help</a>
@@ -33,6 +34,7 @@ const toolbar = (props) => (
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/help" component={Help} />
+        <Route path="/login" component={Login} />
       </Switch>
     </Router>
   </header>
