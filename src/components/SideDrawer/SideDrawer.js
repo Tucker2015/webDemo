@@ -1,7 +1,6 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./SideDrawer.css";
-import Home from "../../pages/Home";
 import Help from "../../pages/Help";
 
 const sideDrawer = (props) => (

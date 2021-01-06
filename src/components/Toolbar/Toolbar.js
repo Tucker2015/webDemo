@@ -1,7 +1,7 @@
 import React from "react";
 import "./Toolbar.css";
 import DrawerToggleButton from "../SideDrawer/DrawerToggleButton";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../../pages/Home";
 import Help from "../../pages/Help";
 
@@ -19,7 +19,7 @@ const toolbar = (props) => (
         <div className="toolbar_navigation-items">
           <ul>
             <li>
-              <a href="http://live.kevtucker.com:3333">Live</a>
+              <a href="/">Live</a>
             </li>
             <li>
               <a href="/">Login</a>
