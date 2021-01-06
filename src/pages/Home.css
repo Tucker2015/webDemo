@@ -1,0 +1,19 @@
+.body_text {
+  margin-top: 64px;
+  flex: 1;
+}
+.body_text h1 {
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  color: rgb(165, 44, 44);
+}
+
+.logo {
+  align-items: center;
+  display: flex;
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
