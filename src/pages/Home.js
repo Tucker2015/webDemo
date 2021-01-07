@@ -8,7 +8,10 @@ class Home extends Component {
       <div>
         <div className="body_text">
           <h1>Welcome to MixStream</h1>
-          <img className="App-logo" src={logo} alt="Logo" />
+          <p>Testing a new site</p>
+          <div className="videoBox">
+            <img className="logo" src={logo} alt="Logo" />
+          </div>
         </div>
       </div>
     );

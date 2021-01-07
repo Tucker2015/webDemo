@@ -7,6 +7,7 @@ class Help extends Component {
     return (
       <div className="body_text">
         <h1>Help Page Test</h1>
+
         <img className="App-logo" src={logo} alt="Logo" />
       </div>
     );
